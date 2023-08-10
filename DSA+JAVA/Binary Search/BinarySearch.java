@@ -22,7 +22,7 @@ class BinarySearch{
                 end=mid-1;
             }
             else{
-                return -1;
+                return mid;
             }
         }
         return -1;
