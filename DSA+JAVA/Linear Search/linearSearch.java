@@ -6,6 +6,7 @@ class linearSearch{
         System.out.println("Exists :"+search2(arr,4));
     }
 
+    //Search and return the index of the element 
     static int search(int[] arr,int target){
         if(arr.length==0){
            return -1;
@@ -18,6 +19,7 @@ class linearSearch{
         return -1;
     }
 
+    //Check if the element is present in the array or not
     static boolean search2(int[] arr,int target){
         if(arr.length==0){
            return false;
