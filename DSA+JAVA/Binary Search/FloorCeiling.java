@@ -6,8 +6,8 @@ public class FloorCeiling {
         System.out.println(floor(arr,target));
     }
 
-    static int ceiling(int[] arr,int target){
-        if(target>arr[arr.length-1]){
+    static int ceiling(int[] arr,int target){    // Ceiling-->if the number is not present then return the index of just greater element present in array ,if present then return the index of that element
+        if(target>arr[arr.length-1]){     // if target is greater than last element then return -1
             return -1;
         }
         if(arr.length==0){
@@ -27,11 +27,11 @@ public class FloorCeiling {
                 return mid;
             }
         }
-        return start;
+        return start;    
     }
 
-     static int floor(int[] arr,int target){
-        if(target<arr[0]){
+     static int floor(int[] arr,int target){    // Floor-->if the number is not present then return the index of just lesser element present in array ,if present then return the index of that element
+         if(target<arr[0]){       // if target is smaller than last element then return -1
             return -1;
         }
         if(arr.length==0){
