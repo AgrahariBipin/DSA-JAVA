@@ -4,8 +4,8 @@ class BinarySearch{
         int target=10;
         System.out.println(search(arr,target));
     }
-    //for ascending array
-    static int search(int[] arr,int target){
+    
+    static int search(int[] arr,int target){     //for ascending array
         int start=0;
         int end=arr.length-1;
 
@@ -14,9 +14,7 @@ class BinarySearch{
         }
         while(start<=end){
             int mid=(start+end)/2;
-            if(arr[mid]==target){
-                return mid;
-            }
+           
             if(arr[mid]<target){
                 start=mid+1;
             }
