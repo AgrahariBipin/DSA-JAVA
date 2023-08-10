@@ -5,7 +5,9 @@ class linearSearchFindHowManyHaveEvenNumberOfDigit {
         System.out.println(find(arr));
     }
 
-    static int find(int[] arr) {
+
+    
+    static int find(int[] arr) {    //find the number of element with even number of digit
         int n = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 0) {
@@ -19,7 +21,7 @@ class linearSearchFindHowManyHaveEvenNumberOfDigit {
         return n;
     }
 
-    static int digit(int num) {
+    static int digit(int num) {    // find the number of digit in the element 
         int count = 0;
         while (num > 0) {
 
@@ -29,7 +31,7 @@ class linearSearchFindHowManyHaveEvenNumberOfDigit {
         return count;
     }
 
-    static boolean even(int num) {
+    static boolean even(int num) {   //check if the number of digit is even or odd
         if (num % 2 == 0) {
             return true;
         }
