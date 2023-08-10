@@ -20,7 +20,7 @@ public class BinarySearchDesc {
             } else if (arr[mid] < target) {
                 end = mid - 1;
             } else {
-                return -1;
+                return mid;
             }
         }
         return -1;
