@@ -18,13 +18,13 @@ public class OrderAgnosticBS {
             if (arr[mid] == target) {
                 return mid;
             }
-            if (isasc) {
+            if (isasc) {     //Search when array is in ascending order
                 if (arr[mid] > target) {
                     end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
-            } else {
+            } else {      //Search when array is in descending order
                 if (arr[mid] < target) {
                     end = mid - 1;
                 } else {
