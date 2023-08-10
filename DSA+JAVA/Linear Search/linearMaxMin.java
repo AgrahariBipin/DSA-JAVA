@@ -6,7 +6,7 @@ class linearMaxMin{
         System.out.println("Minimum :"+min(arr));
     }
 
-    //return the maximum element in array
+    //return the maximum element in array.
     static int max(int[] arr){
         int maxV=0;
         if(arr.length==0){
