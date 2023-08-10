@@ -7,7 +7,7 @@ class linearSearchInString {
 
     }
 
-    static boolean search(String arr, char target) {
+    static boolean search(String arr, char target) {    //check if the character is present in the string or not
         if (arr.length() == 0) {
             return false;
         }
