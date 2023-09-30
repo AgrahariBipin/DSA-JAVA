@@ -1,4 +1,4 @@
-class BinarySearch{
+class BinarySearch{   //time complexity log2n
     public static void main(String[] args){
         int[] arr={1,4,8,10,11,90,200};
         int target=10;
