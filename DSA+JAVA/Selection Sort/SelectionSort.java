@@ -1,5 +1,8 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
+
+
+//select the max element and swap with the last
 import java.util.*;
 import java.lang.*;
 import java.io.*;
